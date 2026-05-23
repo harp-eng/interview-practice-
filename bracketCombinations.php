@@ -1,7 +1,8 @@
 <?php
+
 function bracketCombinations($n)
 {
-    return fictorial(2*$n)/(fictorial($n+1)*fictorial($n)); // binomial coefficient formula
+    return fictorial(2*$n)/(fictorial($n+1)*fictorial($n)); // binomial coefficient formula 2n!/(n+1)!*n!
 }
 function fictorial($v){
     $r=1;
@@ -15,5 +16,7 @@ echo bracketCombinations(3);
 
 /**  
 *   Result will be 5
+
 */
 ?>
+
